@@ -1,0 +1,134 @@
+// Import custom variables (overrides Bootstrap default variables)
+@import "../sass/variables.scss";
+
+// Import font awesome
+@import "~@fortawesome/fontawesome-free/css/all.css";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+
+// Import Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Import custom styles
+@import "../sass/global.scss";
+@import "../sass/navbar.scss";
+@import "../sass/masthead.scss";
+@import "../sass/portfolio.scss";
+
+.a{
+    margin: 0 !important;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-content: center;
+    padding: 3em 6em;
+    li{
+        list-style: none;
+        margin: 2em;
+    }
+    h3{
+        font-size: 1.2em;
+        text-align: center;
+    }
+   
+      
+}
+@media only screen and (max-width: 900px) {
+    .a{
+        grid-template-columns: auto auto auto;
+        padding: 2.5em 5em;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .a{
+        grid-template-columns: auto auto;
+        padding: 2em 3em;
+        h3{
+            font-size: 1em;
+        }
+    }
+}
+.b{
+    padding: 0em 20px !important;
+    h2{
+        font-size: 1.7em;
+        color: cyan;
+    }
+}
+.c{
+    margin: 0.5em 11em; 
+
+}
+@media only screen and (max-width: 1200px) {
+    .c{margin: 0.5em 8em;}
+  }
+
+@media only screen and (max-width: 700px) {
+    .c{margin: 0.5em 6em;}
+  }
+@media only screen and (max-width: 300px) {
+    .c{margin: 0.5em 12em;}
+  }
+.d{
+    padding: 4em;
+    
+}
+@media only screen and (max-width: 500px) {
+    .d{padding: 2em;}
+  }
+.e{
+    background-color: yellow !important;
+    padding: 7em 0;
+}
+.f{
+   padding:6em 4em;
+   
+  }
+  @media only screen and (max-width: 500px) {
+    .f{padding: 5em 2em;}
+   h3{
+       font-size: 1.2em;
+   }
+   
+}
+.g{
+    // border-bottom: solid 1px white !important;
+    border-top: solid 1px white !important;
+}
+.h{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 4.5em;
+   
+}
+@media only screen and (max-width: 700px) {
+    .h{padding:2em;
+    grid-template-columns: auto;}
+  }
+.content{
+    margin-right: 6em;
+    text-align: center;
+    display: block;
+    width: 40vw;
+    img{
+        width: 40vw;
+    }
+   
+}
+@media only screen and (max-width: 700px) {
+    .content{
+        margin: 0;
+        width: 85vw;
+        img{
+            width: 85vw;
+        }
+    }
+}
+.i{
+    img{
+        margin: 3em 0 !important;
+    }
+}
+.j{
+    text-align: left;
+}
+
